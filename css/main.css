@@ -1,0 +1,740 @@
+/* body {
+    background-image: url('../images/background-image.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+} */
+
+
+:root {
+    --color-red: #e62a17;
+    --color-darkblue: #112d54;
+}
+
+
+.main-section {
+    display: flex;
+    justify-content: center;
+}
+
+.main-section .body-content {
+    width: 767px;
+    background-image: url('../images/background-image.png');
+    background-size: cover;
+
+
+    /* background-repeat: no-repeat; */
+}
+
+.top-logo-section img {
+    display: block;
+    margin-left: auto;
+    width: 170px;
+    margin: 40px 40px 0 auto;
+}
+
+
+/* Banner Section start */
+.banner-section {
+    margin-top: -50px;
+}
+
+.banner-section h1.banner-heading {
+    color: var(--color-red);
+    font-weight: 700;
+    font-size: 80px;
+    text-transform: uppercase;
+    margin: 0 15px;
+}
+
+.banner-section h1.banner-heading>span {
+    display: block;
+    width: 100%;
+    font-size: 120px;
+    color: var(--color-darkblue);
+    margin-top: -80px;
+}
+
+.banner-section h1.banner-heading>span>i {
+    text-transform: lowercase;
+    color: var(--color-red);
+    font-size: 160px;
+}
+
+.banner-section blockquote.quote p {
+    color: var(--color-red);
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 1.2;
+    margin: 0 15px;
+}
+
+.banner-section blockquote.quote p .quote-icon {
+    font-size: 20px;
+}
+
+.banner-section .banner-img-sec {
+    position: relative;
+}
+
+.banner-section .banner-img-sec .banner-heading {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 30px;
+    padding: 10px;
+    font-weight: 700;
+    color: white;
+    background-color: var(--color-red);
+    margin: 0 15px;
+    text-shadow: 1px 2px 1px black;
+
+    position: relative;
+    overflow: hidden;
+}
+
+.banner-section .banner-img-sec .banner-heading:after {
+    content: "";
+    position: absolute;
+    margin: -2px;
+    right: -16px;
+    width: 39px;
+    height: 40px;
+    transform: rotate(45deg);
+    background-color: #fff;
+}
+
+.banner-section .banner-img-sec .banner-heading:before {
+    content: "";
+    position: absolute;
+    margin: -2px;
+    left: -16px;
+    width: 39px;
+    height: 40px;
+    transform: rotate(45deg);
+    background-color: #fff;
+}
+
+
+
+
+.banner-section .banner-img-sec .top-subhead {
+    margin: 7px 15px 0;
+    color: var(--color-red);
+    font-size: 28px;
+    font-weight: 700;
+    position: absolute;
+    top: 60px;
+}
+
+.banner-section .banner-img-sec .top-web-link {
+    margin: 10px 15px 0;
+    display: flex;
+    align-items: center;
+    font-size: 26px;
+    position: absolute;
+    top: 105px;
+}
+
+.banner-section .banner-img-sec .top-web-link>span:first-child {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid var(--color-darkblue);
+    border-radius: 50%;
+    margin-right: 7px;
+}
+
+.banner-section .banner-img-sec .top-web-link>span:first-child i {
+    color: var(--color-red)
+}
+
+.banner-section .banner-img-sec .top-web-link>span:last-child a {
+    color: var(--color-darkblue);
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.banner-section .banner-img-sec .img-sec {
+    margin-top: 20px;
+}
+
+.banner-section .banner-img-sec .on-img-text {
+    width: 374px;
+    font-weight: 700;
+    font-size: 75px;
+    position: absolute;
+    top: 213px;
+    line-height: 0.8;
+    left: 46px;
+    color: white;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+
+.banner-section .banner-img-sec .on-img-text>span {
+    color: var(--color-red);
+    display: block;
+    width: 100%;
+}
+
+.banner-section .banner-img-sec .on-img-text>span:first-child {
+    margin-bottom: 30px;
+}
+
+.banner-section .banner-img-sec .on-img-text>span:last-child {
+    margin-top: 30px;
+}
+
+/* Banner Section ends */
+
+
+/* team empower section start */
+.team-empower-sec h2.heading {
+    text-align: center;
+    font-weight: 700;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: var(--color-darkblue);
+}
+
+.team-empower-sec h2.heading>span {
+    display: block;
+    width: 100%;
+}
+
+.team-empower-sec .icon-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.team-empower-sec .icon-section>div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px 10px 0;
+}
+
+.team-empower-sec .icon-section>div .icon .cover {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid var(--color-darkblue);
+    border-radius: 50%;
+}
+
+.team-empower-sec .icon-section>div .icon .cover>i {
+    font-size: 25px;
+    color: var(--color-red);
+}
+
+.team-empower-sec .icon-section>div .text {
+    color: var(--color-red);
+    font-weight: 700;
+    text-align: center;
+    font-size: 35px;
+    text-transform: uppercase;
+}
+
+.team-empower-sec .custom-text {
+    text-align: center;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+/* team empower section ends */
+
+
+/* What Learn Section Start */
+.learn-section {
+    margin-top: 25px;
+}
+
+.learn-section .heading {
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--color-darkblue);
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.learn-section .all-icons {
+    display: flex;
+    justify-content: center;
+}
+
+.learn-section .arrow-up {
+    width: 20%;
+}
+
+
+.learn-section .arrow-up .icon {
+    text-align: center;
+}
+
+.learn-section .arrow-up .icon i {
+    color: red;
+    transform: rotate(-45deg);
+    /* width: fit-content; */
+    font-size: 70px;
+}
+
+.learn-section .arrow-up .text {
+    text-align: right;
+}
+
+/* What Learn Section Ends */
+
+
+/* improvement and Art start */
+.improvement-sec {
+    margin-top: 20px;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+.improvement-sec .heading {
+    font-weight: 700;
+    text-align: center;
+    font-weight: 700;
+    color: var(--color-darkblue);
+    font-size: 21px;
+    text-transform: uppercase;
+}
+
+.improvement-sec p.oh-red-txt {
+    color: var(--color-red);
+    text-align: center;
+    font-size: 21px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.improvement-sec p.improve-subhead {
+    color: var(--color-darkblue);
+    text-align: center;
+    font-size: 21px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.improvement-sec .grapth-img img {
+    display: block;
+    margin: 0 auto;
+    width: 70%;
+}
+
+/* improvement and Art ends */
+
+
+/* testimonials Start */
+.testimonials {
+    margin-top: 20px;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+.testimonials .heading {
+    font-weight: 700;
+    font-size: 35px;
+    color: var(--color-red);
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+}
+
+
+
+.testimonials .testimonial .content {
+    display: flex;
+}
+
+
+.testimonials .testimonial-1 .content .avatar,
+.testimonials .testimonial-3 .content .avatar,
+.testimonials .testimonial-5 .content .avatar {
+    margin-right: 10px;
+}
+
+.testimonials .testimonial-2 .content .avatar,
+.testimonials .testimonial-4 .content .avatar {
+    margin-left: 10px;
+}
+
+.testimonials .testimonial .content .text {
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+.testimonials .testimonial {
+    margin-bottom: 25px;
+}
+
+.testimonials .testimonial .test-by {
+    margin-top: 10px;
+}
+
+.testimonials .testimonial .test-by>span {
+    font-weight: 700;
+    margin-left: 15px;
+}
+
+.testimonials .testimonial-1 .content,
+.testimonials .testimonial-3 .content,
+.testimonials .testimonial-5 .content {
+    background: #dbf4fc;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 6px 0px #e1e1e1;
+}
+
+.testimonials .testimonial-1 .test-by,
+.testimonials .testimonial-3 .test-by,
+.testimonials .testimonial-5 .test-by {
+    color: var(--color-darkblue);
+}
+
+.testimonials .testimonial-2 .content,
+.testimonials .testimonial-4 .content {
+    background: #feedee;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 6px 0px #e1e1e1;
+}
+
+.testimonials .testimonial-2 .test-by,
+.testimonials .testimonial-4 .test-by {
+    color: var(--color-red);
+}
+
+
+.testimonials .testimonial .content {
+    position: relative;
+    overflow: show;
+}
+
+/* .testimonials .testimonial .content:after {
+    content: '';
+    width: 70px;
+    height: 70px;
+    transform: rotate(45deg);
+    background-color: #fff;
+} */
+
+/* testimonials Ends */
+
+
+/* footer start */
+.contact-footer {
+    margin: 25px 15px 0;
+}
+
+.contact-footer h2.head {
+    font-weight: 700;
+    color: var(--color-darkblue);
+    font-size: 30px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.contact-footer .web-phone {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.contact-footer .web-phone>div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-footer .web-phone .web span:first-child,
+.contact-footer .web-phone .phone span:first-child {
+    width: 40px;
+    height: 40px;
+    border: 2px solid var(--color-darkblue);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 7px;
+}
+
+.contact-footer .web-phone .web span:first-child i,
+.contact-footer .web-phone .phone span:first-child i {
+    color: var(--color-red);
+    font-size: 23px;
+}
+
+.contact-footer .web-phone .web {
+    margin-right: 10px;
+}
+
+.contact-footer .web-phone .web span:last-child a,
+.contact-footer .web-phone .phone span:last-child {
+    color: var(--color-red);
+    font-size: 25px;
+    font-weight: 700;
+}
+
+/* footer ends */
+
+
+
+/* last-border start */
+.last-border {
+    display: flex;
+    align-items: center;
+    height: 20px;
+    margin-top: 20px;
+}
+
+.last-border .blue {
+    width: 20%;
+    background-color: var(--color-darkblue);
+    height: 20px;
+}
+
+.last-border .red {
+    width: 60%;
+    background-color: var(--color-red);
+    height: 20px;
+}
+
+/* last-border ends */
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 767px) {
+    .banner-section h1.banner-heading {
+        font-size: 50px;
+    }
+
+    .banner-section h1.banner-heading>span {
+        font-size: 90px;
+        margin-top: -65px;
+    }
+
+    .banner-section h1.banner-heading>span>i {
+        font-size: 127px;
+    }
+
+    .banner-section .banner-img-sec .banner-heading {
+        font-size: 25px;
+    }
+
+    .banner-section {
+        margin-top: -25px;
+    }
+
+    .banner-section blockquote.quote p {
+        font-size: 25px;
+    }
+
+    .banner-section .banner-img-sec .img-sec {
+        margin-top: 50px;
+    }
+}
+
+
+@media screen and (max-width: 650px) {
+    .banner-section .banner-img-sec .banner-heading {
+        font-size: 20px;
+    }
+
+    .banner-section blockquote.quote p {
+        font-size: 20px;
+    }
+
+    .banner-section .banner-img-sec .top-subhead {
+        font-size: 20px;
+    }
+
+    .banner-section .banner-img-sec .top-web-link {
+        font-size: 20px;
+        margin-top: 0;
+    }
+
+    .banner-section .banner-img-sec .top-web-link>span:first-child {
+        width: 30px;
+        height: 30px;
+    }
+
+    .banner-section .banner-img-sec .on-img-text {
+        width: 235px;
+        font-size: 50px;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .banner-section h1.banner-heading>span {
+        font-size: 60px;
+        margin-top: -45px;
+    }
+
+    .banner-section h1.banner-heading>span>i {
+        font-size: 86px;
+    }
+
+    .banner-section h1.banner-heading {
+        font-size: 40px;
+    }
+
+    .banner-section {
+        margin-top: 0;
+    }
+
+    .top-logo-section img {
+        display: block;
+        width: 150px;
+        margin: 20px auto 0;
+    }
+
+    .banner-section .banner-img-sec .on-img-text {
+        font-size: 40px;
+        width: 160px;
+    }
+
+    .team-empower-sec h2.heading {
+        font-size: 25px;
+    }
+
+    .team-empower-sec .icon-section>div .text {
+        font-size: 25px;
+    }
+
+    .learn-section .heading {
+        font-size: 25px;
+    }
+
+    .improvement-sec .heading {
+        font-size: 20px;
+    }
+
+    .improvement-sec p.improve-subhead {
+        font-size: 20px;
+    }
+
+    .testimonials .heading {
+        font-size: 25px;
+    }
+}
+
+
+@media screen and (max-width: 550px) {
+
+    .banner-section .banner-img-sec .banner-heading:before,
+    .banner-section .banner-img-sec .banner-heading:after {
+        display: none;
+    }
+
+    .banner-section .banner-img-sec .banner-heading {
+        border-radius: 10px;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .team-empower-sec .icon-section {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .banner-section .banner-img-sec .img-sec img {
+        height: 466px;
+    }
+}
+
+
+@media screen and (max-width: 410px) {
+    .banner-section h1.banner-heading {
+        font-size: 30px;
+    }
+
+    .banner-section h1.banner-heading>span {
+        font-size: 46px;
+        margin-top: -35px;
+    }
+
+    .banner-section h1.banner-heading>span>i {
+        font-size: 69px;
+    }
+
+    .banner-section blockquote.quote p {
+        font-size: 18px;
+    }
+
+    .banner-section .banner-img-sec .banner-heading {
+        font-size: 18px;
+    }
+
+    .banner-section .banner-img-sec .top-subhead {
+        font-size: 18px;
+        top: 65px;
+    }
+
+    .banner-section .banner-img-sec .top-web-link {
+        font-size: 18px;
+        margin-top: 0;
+    }
+
+    .banner-section .banner-img-sec .img-sec {
+        margin-top: 74px;
+    }
+
+    .banner-section .banner-img-sec .on-img-text {
+        top: 257px;
+    }
+
+    .team-empower-sec h2.heading {
+        font-size: 20px;
+    }
+
+    .team-empower-sec .icon-section>div .text {
+        font-size: 18px;
+    }
+
+    .learn-section .heading {
+        font-size: 20px;
+    }
+
+    .improvement-sec .heading {
+        font-size: 18px;
+    }
+
+    .improvement-sec p.improve-subhead {
+        font-size: 18px;
+    }
+
+    .improvement-sec .grapth-img img {
+        width: 90%;
+    }
+
+    .testimonials .heading {
+        font-size: 20px;
+    }
+
+    .testimonials .testimonial .content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .testimonials .testimonial .content .avatar {
+        order: 1;
+    }
+
+    .testimonials .testimonial .content .text {
+        order: 2;
+    }
+}
